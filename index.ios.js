@@ -23,8 +23,8 @@ export default class imoocApp extends Component {
           终于可以了
         </Text>
         <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
+          挺好用的 {'\n'}
+          什么时候更新
         </Text>
       </View>
     );
@@ -39,14 +39,15 @@ const styles = StyleSheet.create({
     backgroundColor: '#F5FCFF',
   },
   welcome: {
-    fontSize: 20,
+    fontSize: 30,
     textAlign: 'center',
-    margin: 10,
+    marginBottom: 20,
   },
   instructions: {
     textAlign: 'center',
-    color: '#333333',
+    color: '#777777',
     marginBottom: 5,
+    lineHeight: 22
   },
 });
 
