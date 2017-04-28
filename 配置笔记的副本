@@ -42,5 +42,9 @@ git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 
 zsh 和 autojump 的组合形成了 zsh 下最强悍的插件，今天我们主要说说这货。
-brew install autojump
 
+配置插件 R插入 ESC退出编辑模式 wq保存退出
+brew install autojump
+vi ~/.zshrc
+在~/.zshrc中找到plugins=(git) 添加authojump，
+ohmyzsh会自动引用plugins中的安装目录
