@@ -20,7 +20,7 @@ export default class imoocApp extends Component {
           哇 第一次运行
         </Text>
         <Text style={styles.instructions}>
-          To get started, edit index.ios.js
+          终于可以了
         </Text>
         <Text style={styles.instructions}>
           Press Cmd+R to reload,{'\n'}
