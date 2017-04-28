@@ -48,3 +48,6 @@ brew install autojump
 vi ~/.zshrc
 在~/.zshrc中找到plugins=(git) 添加authojump，
 ohmyzsh会自动引用plugins中的安装目录
+
+设置默认启动终端为 zsh
+chsh -s /bin/zsh
